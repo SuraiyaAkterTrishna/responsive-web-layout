@@ -1,0 +1,14 @@
+.box {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    color: white;
+    background: indigo;
+    border: 2px solid black;
+    transition: width 2s, height 2s, transform 2s;
+}
+.box:hover {
+    width: 150px;
+    height: 150px;
+    transform: rotate(180deg);
+}
